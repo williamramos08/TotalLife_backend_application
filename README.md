@@ -33,6 +33,7 @@ This is a React application that utilizes Express.js for the backend. It provide
 - **Body-parser**: Node.js body parsing middleware.
 - **Cors**: Middleware for enabling CORS (Cross-Origin Resource Sharing).
 - **Validation**: Functions for validating clinician, patient, and appointment data.
+- **SQLite**: Database used to store data.
 
 ## Installation
 
