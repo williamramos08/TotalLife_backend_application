@@ -28,7 +28,7 @@ This is a React application that utilizes Express.js for the backend. It provide
 
 ## Technologies Used
 
-- **React**: A JavaScript library for building user interfaces.
+- **NodeJs**: A JavaScript library for building user interfaces.
 - **Express.js**: A web application framework for Node.js used for building backend APIs.
 - **Body-parser**: Node.js body parsing middleware.
 - **Cors**: Middleware for enabling CORS (Cross-Origin Resource Sharing).
