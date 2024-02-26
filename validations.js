@@ -27,8 +27,8 @@ function validateAppointment(req, res, next) {
     const missingFields = [];
 
     // Check if required fields are present and not empty
-    if (!clinician_id || clinician_id.trim() === "") missingFields.push("clinician_id");
-    if (!patient_id || patient_id.trim() === "") missingFields.push("patient_id");
+    if (!clinician_id || isNaN(clinician_id)) missingFields.push("clinician_id");
+    if (!patient_id || isNaN(patient_id)) missingFields.push("patient_id");
     if (!appointment_datetime || appointment_datetime.trim() === "") missingFields.push("appointment_datetime");
     if (!appointment_purpose || appointment_purpose.trim() === "") missingFields.push("appointment_purpose");
 
